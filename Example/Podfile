@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KakaGCD_Example' do
+  pod 'KakaGCD', :path => '../'
+
+  target 'KakaGCD_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,16 @@
+PODS:
+  - KakaGCD (0.1.0)
+
+DEPENDENCIES:
+  - KakaGCD (from `../`)
+
+EXTERNAL SOURCES:
+  KakaGCD:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KakaGCD: bfa807999d169cbd4365a5cc09419eb98c473a8d
+
+PODFILE CHECKSUM: bde2d871575d8b148aa1f7e7ad79a6513647691f
+
+COCOAPODS: 1.8.4

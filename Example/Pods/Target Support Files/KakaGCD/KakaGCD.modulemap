@@ -1,0 +1,6 @@
+framework module KakaGCD {
+  umbrella header "KakaGCD-umbrella.h"
+
+  export *
+  module * { export * }
+}

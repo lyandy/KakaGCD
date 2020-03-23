@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		096B9764178C72A307D020FB016B1873 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1A6630828FFFD44349D82C8568E93928 /* Pods-KakaGCD_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 814D03B7FC2A86CD50A1585CBCB7B9AF /* Pods-KakaGCD_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44BC40D000DD7BEAFA1D397E0311F4C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5053D09F273F9CEFAB77F120E133F756 /* Pods-KakaGCD_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F65C5C2F40B38A8A5B7C8013315A99F /* Pods-KakaGCD_Tests-dummy.m */; };
+		6789A8EE425E1A916862C3C5625916BC /* KakaGCD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8524183E9CD010DC2DF5291876E3D /* KakaGCD-dummy.m */; };
+		842248DAE8DCF425ABA07197AD80B9A0 /* Pods-KakaGCD_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5537A7A0F11BC0252DDB2C5EA08EF73 /* Pods-KakaGCD_Example-dummy.m */; };
+		8FDE796ACC5FF930CC2B0A8A4A6E38F2 /* KakaGCD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A93FECEB1BA4CEFBBA4F938F7FA64EB4 /* KakaGCD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B108CB0F2116349B5E66FA5937B475F2 /* Pods-KakaGCD_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2464D4248F7ED09FBE27F7F1BBDCD4EB /* Pods-KakaGCD_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B639F1A924287FBC00A506FF /* KakaGCDGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B639F1A824287FBC00A506FF /* KakaGCDGroup.swift */; };
+		B639F1B3242891C000A506FF /* KakaGCDSemaphore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B639F1B0242891C000A506FF /* KakaGCDSemaphore.swift */; };
+		B639F1B4242891C000A506FF /* KakaGCDTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B639F1B1242891C000A506FF /* KakaGCDTimer.swift */; };
+		B639F1B5242891C000A506FF /* KakaGCDConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = B639F1B2242891C000A506FF /* KakaGCDConst.swift */; };
+		D15C1F1BAD130E852C7803541450AC30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F89B9EEC1AE160F44F9A7B171F13F234 /* KakaGCDQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5580843E431C49ED3DB3942BC151DD4A /* KakaGCDQueue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6760D9B97E2B38BF2A572067F56244B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 913B1081EB0C5FF599DBD4305E1DB3FF;
+			remoteInfo = "Pods-KakaGCD_Example";
+		};
+		B30E83F3F7945DDBA8055EB9309F2D2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C35DE63FE2BA3B295F646911D442E16E;
+			remoteInfo = KakaGCD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08940C679331AFFC848E179683548F95 /* Pods-KakaGCD_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KakaGCD_Example-frameworks.sh"; sourceTree = "<group>"; };
+		09CE82A1B7E2D57B2E1CD1751F8B0D81 /* Pods-KakaGCD_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KakaGCD_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		14009F575E203C03FB71EBC6DAA677A2 /* Pods-KakaGCD_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KakaGCD_Example-Info.plist"; sourceTree = "<group>"; };
+		18F8524183E9CD010DC2DF5291876E3D /* KakaGCD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KakaGCD-dummy.m"; sourceTree = "<group>"; };
+		1C5A6719DEE99FEACC69AC14C62C90A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		230D83CB833682298D42427798A312BE /* Pods-KakaGCD_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KakaGCD_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2464D4248F7ED09FBE27F7F1BBDCD4EB /* Pods-KakaGCD_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KakaGCD_Example-umbrella.h"; sourceTree = "<group>"; };
+		2715D4DCF067578C7A821E22F7821096 /* KakaGCD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KakaGCD-prefix.pch"; sourceTree = "<group>"; };
+		286BA406144B4626AD9CC72F4C777C34 /* Pods-KakaGCD_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KakaGCD_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F65C5C2F40B38A8A5B7C8013315A99F /* Pods-KakaGCD_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KakaGCD_Tests-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		354AEB35DF05F4AEE246DD7BD72297A2 /* KakaGCD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KakaGCD.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5580843E431C49ED3DB3942BC151DD4A /* KakaGCDQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KakaGCDQueue.swift; path = KakaGCD/Classes/KakaGCDQueue.swift; sourceTree = "<group>"; };
+		6E465B41E56459DF9FB55D1DD32B97EF /* Pods-KakaGCD_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KakaGCD_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7AF54C5383B6A5EA91A96CBED1C4F9B2 /* Pods-KakaGCD_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KakaGCD_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		814D03B7FC2A86CD50A1585CBCB7B9AF /* Pods-KakaGCD_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KakaGCD_Tests-umbrella.h"; sourceTree = "<group>"; };
+		81B0B1E56FA1DB18BAC9940317A9C055 /* Pods-KakaGCD_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KakaGCD_Tests-Info.plist"; sourceTree = "<group>"; };
+		82A8D49B0CFF4E6BCD23601D6E67C2A0 /* Pods-KakaGCD_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KakaGCD_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FB1A7B788905BE34F3A3AB860651FA6 /* Pods_KakaGCD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KakaGCD_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75C38966C3FB0C898FF5AAA55DCFF06 /* Pods-KakaGCD_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KakaGCD_Tests.modulemap"; sourceTree = "<group>"; };
+		A93FECEB1BA4CEFBBA4F938F7FA64EB4 /* KakaGCD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KakaGCD-umbrella.h"; sourceTree = "<group>"; };
+		AD33DC44D7CF1ABF5B3FC5C75E6B6292 /* Pods_KakaGCD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KakaGCD_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5537A7A0F11BC0252DDB2C5EA08EF73 /* Pods-KakaGCD_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KakaGCD_Example-dummy.m"; sourceTree = "<group>"; };
+		B639F1A824287FBC00A506FF /* KakaGCDGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KakaGCDGroup.swift; path = KakaGCD/Classes/KakaGCDGroup.swift; sourceTree = "<group>"; };
+		B639F1B0242891C000A506FF /* KakaGCDSemaphore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KakaGCDSemaphore.swift; path = KakaGCD/Classes/KakaGCDSemaphore.swift; sourceTree = "<group>"; };
+		B639F1B1242891C000A506FF /* KakaGCDTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KakaGCDTimer.swift; path = KakaGCD/Classes/KakaGCDTimer.swift; sourceTree = "<group>"; };
+		B639F1B2242891C000A506FF /* KakaGCDConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KakaGCDConst.swift; path = KakaGCD/Classes/KakaGCDConst.swift; sourceTree = "<group>"; };
+		BFED7D123121C06F617CB72B32CE9F85 /* Pods-KakaGCD_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KakaGCD_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C4072BFB42E70689DA15727FEA4822BF /* KakaGCD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KakaGCD.modulemap; sourceTree = "<group>"; };
+		C61C0D92028442DB0121CA71DBEB7592 /* Pods-KakaGCD_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KakaGCD_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D1E4295DC357D71E51D27064F59EC9DA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D789E196CD7FD21C7C9C5575D242C610 /* KakaGCD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KakaGCD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D827CEBED63975A54C991567779935CD /* KakaGCD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KakaGCD-Info.plist"; sourceTree = "<group>"; };
+		DEC6745C3B014942D7A5B2477C95156F /* KakaGCD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KakaGCD.xcconfig; sourceTree = "<group>"; };
+		FF3DDF4B63974FB73418C065FA44244B /* Pods-KakaGCD_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KakaGCD_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E2C1D8A7406ABB3C15C14C8D79DFC1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096B9764178C72A307D020FB016B1873 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8D5A01F2033EC0E3B674CF6623A04D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44BC40D000DD7BEAFA1D397E0311F4C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0BDD1C7CCF60517987E727DDD6DA949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15C1F1BAD130E852C7803541450AC30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E3925D492EF218203084CFBB31AF453 /* Pods-KakaGCD_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FF3DDF4B63974FB73418C065FA44244B /* Pods-KakaGCD_Example.modulemap */,
+				09CE82A1B7E2D57B2E1CD1751F8B0D81 /* Pods-KakaGCD_Example-acknowledgements.markdown */,
+				230D83CB833682298D42427798A312BE /* Pods-KakaGCD_Example-acknowledgements.plist */,
+				B5537A7A0F11BC0252DDB2C5EA08EF73 /* Pods-KakaGCD_Example-dummy.m */,
+				08940C679331AFFC848E179683548F95 /* Pods-KakaGCD_Example-frameworks.sh */,
+				14009F575E203C03FB71EBC6DAA677A2 /* Pods-KakaGCD_Example-Info.plist */,
+				2464D4248F7ED09FBE27F7F1BBDCD4EB /* Pods-KakaGCD_Example-umbrella.h */,
+				6E465B41E56459DF9FB55D1DD32B97EF /* Pods-KakaGCD_Example.debug.xcconfig */,
+				BFED7D123121C06F617CB72B32CE9F85 /* Pods-KakaGCD_Example.release.xcconfig */,
+			);
+			name = "Pods-KakaGCD_Example";
+			path = "Target Support Files/Pods-KakaGCD_Example";
+			sourceTree = "<group>";
+		};
+		24D640D99D87E130C2E439E17FA474B5 /* Pods-KakaGCD_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A75C38966C3FB0C898FF5AAA55DCFF06 /* Pods-KakaGCD_Tests.modulemap */,
+				7AF54C5383B6A5EA91A96CBED1C4F9B2 /* Pods-KakaGCD_Tests-acknowledgements.markdown */,
+				C61C0D92028442DB0121CA71DBEB7592 /* Pods-KakaGCD_Tests-acknowledgements.plist */,
+				2F65C5C2F40B38A8A5B7C8013315A99F /* Pods-KakaGCD_Tests-dummy.m */,
+				81B0B1E56FA1DB18BAC9940317A9C055 /* Pods-KakaGCD_Tests-Info.plist */,
+				814D03B7FC2A86CD50A1585CBCB7B9AF /* Pods-KakaGCD_Tests-umbrella.h */,
+				286BA406144B4626AD9CC72F4C777C34 /* Pods-KakaGCD_Tests.debug.xcconfig */,
+				82A8D49B0CFF4E6BCD23601D6E67C2A0 /* Pods-KakaGCD_Tests.release.xcconfig */,
+			);
+			name = "Pods-KakaGCD_Tests";
+			path = "Target Support Files/Pods-KakaGCD_Tests";
+			sourceTree = "<group>";
+		};
+		437262B8032644E797383D7802D4C688 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				354AEB35DF05F4AEE246DD7BD72297A2 /* KakaGCD.podspec */,
+				1C5A6719DEE99FEACC69AC14C62C90A0 /* LICENSE */,
+				D1E4295DC357D71E51D27064F59EC9DA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6C498177FDEC3A657BF0E6FB2F4A61EC /* KakaGCD */ = {
+			isa = PBXGroup;
+			children = (
+				5580843E431C49ED3DB3942BC151DD4A /* KakaGCDQueue.swift */,
+				B639F1A824287FBC00A506FF /* KakaGCDGroup.swift */,
+				B639F1B0242891C000A506FF /* KakaGCDSemaphore.swift */,
+				B639F1B1242891C000A506FF /* KakaGCDTimer.swift */,
+				B639F1B2242891C000A506FF /* KakaGCDConst.swift */,
+				437262B8032644E797383D7802D4C688 /* Pod */,
+				CC23B099ACE3EEDCE6AD887876E31753 /* Support Files */,
+			);
+			name = KakaGCD;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8F90264337994BA78213A37E230C3E77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D789E196CD7FD21C7C9C5575D242C610 /* KakaGCD.framework */,
+				AD33DC44D7CF1ABF5B3FC5C75E6B6292 /* Pods_KakaGCD_Example.framework */,
+				9FB1A7B788905BE34F3A3AB860651FA6 /* Pods_KakaGCD_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0FF3B17337EF9098E459E1EB2750431 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C498177FDEC3A657BF0E6FB2F4A61EC /* KakaGCD */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CC23B099ACE3EEDCE6AD887876E31753 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4072BFB42E70689DA15727FEA4822BF /* KakaGCD.modulemap */,
+				DEC6745C3B014942D7A5B2477C95156F /* KakaGCD.xcconfig */,
+				18F8524183E9CD010DC2DF5291876E3D /* KakaGCD-dummy.m */,
+				D827CEBED63975A54C991567779935CD /* KakaGCD-Info.plist */,
+				2715D4DCF067578C7A821E22F7821096 /* KakaGCD-prefix.pch */,
+				A93FECEB1BA4CEFBBA4F938F7FA64EB4 /* KakaGCD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KakaGCD";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A0FF3B17337EF9098E459E1EB2750431 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8F90264337994BA78213A37E230C3E77 /* Products */,
+				FBD97C54A2587A905B400F5730E50F0A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBD97C54A2587A905B400F5730E50F0A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E3925D492EF218203084CFBB31AF453 /* Pods-KakaGCD_Example */,
+				24D640D99D87E130C2E439E17FA474B5 /* Pods-KakaGCD_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		100C0660D2F78D4FBA81962CD2B47FF5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B108CB0F2116349B5E66FA5937B475F2 /* Pods-KakaGCD_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A4E99D262DEF041116D6FE4FA6ECDF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FDE796ACC5FF930CC2B0A8A4A6E38F2 /* KakaGCD-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBD3259DC95ABD6801E52CE522A0FEC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6630828FFFD44349D82C8568E93928 /* Pods-KakaGCD_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3E384DFE74BFF9123CDABA6E133FD976 /* Pods-KakaGCD_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BEBFAB78F11B502BCDB73D9471F704D /* Build configuration list for PBXNativeTarget "Pods-KakaGCD_Tests" */;
+			buildPhases = (
+				BBD3259DC95ABD6801E52CE522A0FEC3 /* Headers */,
+				02CEB2FAFCC9D3B2CD819ACDFC422266 /* Sources */,
+				9E2C1D8A7406ABB3C15C14C8D79DFC1D /* Frameworks */,
+				6BD618D231A56E54E41DDC5D4FC2BD57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2306232AF982A97D2768E1F5BE0BE99 /* PBXTargetDependency */,
+			);
+			name = "Pods-KakaGCD_Tests";
+			productName = "Pods-KakaGCD_Tests";
+			productReference = 9FB1A7B788905BE34F3A3AB860651FA6 /* Pods_KakaGCD_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		913B1081EB0C5FF599DBD4305E1DB3FF /* Pods-KakaGCD_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0904126781D13647C6C444233567AB02 /* Build configuration list for PBXNativeTarget "Pods-KakaGCD_Example" */;
+			buildPhases = (
+				100C0660D2F78D4FBA81962CD2B47FF5 /* Headers */,
+				7D8F6002D6A953D8111BE3EAFB7C646F /* Sources */,
+				F0BDD1C7CCF60517987E727DDD6DA949 /* Frameworks */,
+				467061265B4E2A1FC1332B4715AE0189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4CEE8A615F424786AC04C8C25A57407 /* PBXTargetDependency */,
+			);
+			name = "Pods-KakaGCD_Example";
+			productName = "Pods-KakaGCD_Example";
+			productReference = AD33DC44D7CF1ABF5B3FC5C75E6B6292 /* Pods_KakaGCD_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C35DE63FE2BA3B295F646911D442E16E /* KakaGCD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63E7103906DECBFD6BA937343552F371 /* Build configuration list for PBXNativeTarget "KakaGCD" */;
+			buildPhases = (
+				18A4E99D262DEF041116D6FE4FA6ECDF /* Headers */,
+				B00D03B18A31921C07933A1D12F75B20 /* Sources */,
+				E8D5A01F2033EC0E3B674CF6623A04D2 /* Frameworks */,
+				F315892C5DB444C239ECBB4581BC62EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KakaGCD;
+			productName = KakaGCD;
+			productReference = D789E196CD7FD21C7C9C5575D242C610 /* KakaGCD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					C35DE63FE2BA3B295F646911D442E16E = {
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8F90264337994BA78213A37E230C3E77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C35DE63FE2BA3B295F646911D442E16E /* KakaGCD */,
+				913B1081EB0C5FF599DBD4305E1DB3FF /* Pods-KakaGCD_Example */,
+				3E384DFE74BFF9123CDABA6E133FD976 /* Pods-KakaGCD_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		467061265B4E2A1FC1332B4715AE0189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BD618D231A56E54E41DDC5D4FC2BD57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F315892C5DB444C239ECBB4581BC62EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02CEB2FAFCC9D3B2CD819ACDFC422266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5053D09F273F9CEFAB77F120E133F756 /* Pods-KakaGCD_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8F6002D6A953D8111BE3EAFB7C646F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842248DAE8DCF425ABA07197AD80B9A0 /* Pods-KakaGCD_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00D03B18A31921C07933A1D12F75B20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B639F1B4242891C000A506FF /* KakaGCDTimer.swift in Sources */,
+				B639F1A924287FBC00A506FF /* KakaGCDGroup.swift in Sources */,
+				6789A8EE425E1A916862C3C5625916BC /* KakaGCD-dummy.m in Sources */,
+				B639F1B3242891C000A506FF /* KakaGCDSemaphore.swift in Sources */,
+				F89B9EEC1AE160F44F9A7B171F13F234 /* KakaGCDQueue.swift in Sources */,
+				B639F1B5242891C000A506FF /* KakaGCDConst.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2306232AF982A97D2768E1F5BE0BE99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KakaGCD_Example";
+			target = 913B1081EB0C5FF599DBD4305E1DB3FF /* Pods-KakaGCD_Example */;
+			targetProxy = A6760D9B97E2B38BF2A572067F56244B /* PBXContainerItemProxy */;
+		};
+		C4CEE8A615F424786AC04C8C25A57407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KakaGCD;
+			target = C35DE63FE2BA3B295F646911D442E16E /* KakaGCD */;
+			targetProxy = B30E83F3F7945DDBA8055EB9309F2D2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8E92A24FAA494EA3F3007ACC2858A50B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFED7D123121C06F617CB72B32CE9F85 /* Pods-KakaGCD_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KakaGCD_Example/Pods-KakaGCD_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KakaGCD_Example/Pods-KakaGCD_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8A469447E54DCF199E50D8543F781B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E465B41E56459DF9FB55D1DD32B97EF /* Pods-KakaGCD_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KakaGCD_Example/Pods-KakaGCD_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KakaGCD_Example/Pods-KakaGCD_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BB037567FD9B4689C13A23516B506C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEC6745C3B014942D7A5B2477C95156F /* KakaGCD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KakaGCD/KakaGCD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KakaGCD/KakaGCD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KakaGCD/KakaGCD.modulemap";
+				PRODUCT_MODULE_NAME = KakaGCD;
+				PRODUCT_NAME = KakaGCD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2DA04204C22960FEACC5597B2290C4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82A8D49B0CFF4E6BCD23601D6E67C2A0 /* Pods-KakaGCD_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KakaGCD_Tests/Pods-KakaGCD_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KakaGCD_Tests/Pods-KakaGCD_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8A03021AB0BA532845B9D1AA6E55C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEC6745C3B014942D7A5B2477C95156F /* KakaGCD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KakaGCD/KakaGCD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KakaGCD/KakaGCD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KakaGCD/KakaGCD.modulemap";
+				PRODUCT_MODULE_NAME = KakaGCD;
+				PRODUCT_NAME = KakaGCD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E3F03B211E381E70C08C14ED82CDD9BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 286BA406144B4626AD9CC72F4C777C34 /* Pods-KakaGCD_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KakaGCD_Tests/Pods-KakaGCD_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KakaGCD_Tests/Pods-KakaGCD_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0904126781D13647C6C444233567AB02 /* Build configuration list for PBXNativeTarget "Pods-KakaGCD_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8A469447E54DCF199E50D8543F781B5 /* Debug */,
+				8E92A24FAA494EA3F3007ACC2858A50B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BEBFAB78F11B502BCDB73D9471F704D /* Build configuration list for PBXNativeTarget "Pods-KakaGCD_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3F03B211E381E70C08C14ED82CDD9BA /* Debug */,
+				C2DA04204C22960FEACC5597B2290C4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63E7103906DECBFD6BA937343552F371 /* Build configuration list for PBXNativeTarget "KakaGCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB037567FD9B4689C13A23516B506C68 /* Debug */,
+				D8A03021AB0BA532845B9D1AA6E55C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
